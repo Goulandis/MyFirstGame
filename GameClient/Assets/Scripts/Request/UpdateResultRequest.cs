@@ -1,0 +1,37 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using Common;
+
+public class UpdateResultRequest : BaseRequest
+{
+    private bool isUpdate = false;
+    private RoomListPanel roomListPanel;
+    private int totalCount;
+    private int winCount;
+
+    public override void Awake()
+    {
+        actionCode = ActionCode.UpdateResult;
+        roomListPanel = GetComponent<RoomListPanel>();
+        base.Awake();
+    }
+
+    private void Update()
+    {
+        if (isUpdate)
+        {
+            roomListPanel.OnUpdateResultResponse(totalCount,winCount);
+            isUpdate = false;
+        }
+    }
+
+    public override void OnResponse(string data)
+    {
+        string[] strs = data.Split(',');
+        totalCount = int.Parse(strs[0]);
+        winCount = int.Parse(strs[1]);
+        isUpdate = true;
+    }
+
+}

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JungleWar", "JungleWar.csproj", "{C06A8884-B0F9-FC92-CED5-7D4518DDDB17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JungleWar.Editor", "JungleWar.Editor.csproj", "{999DB74A-3B4A-903C-FECB-2A756F7EBB7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C06A8884-B0F9-FC92-CED5-7D4518DDDB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06A8884-B0F9-FC92-CED5-7D4518DDDB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06A8884-B0F9-FC92-CED5-7D4518DDDB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06A8884-B0F9-FC92-CED5-7D4518DDDB17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{999DB74A-3B4A-903C-FECB-2A756F7EBB7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999DB74A-3B4A-903C-FECB-2A756F7EBB7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999DB74A-3B4A-903C-FECB-2A756F7EBB7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999DB74A-3B4A-903C-FECB-2A756F7EBB7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
